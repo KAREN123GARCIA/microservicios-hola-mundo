@@ -1,0 +1,10 @@
+# filepath: microservicios-hola-mundo/docker-compose.yml
+services:
+  servicio1:
+    build: ./servicio1
+    ports:
+      - "3000:3000"
+  servicio2:
+    build: ./servicio2
+    ports:
+      - "3003:3003"
